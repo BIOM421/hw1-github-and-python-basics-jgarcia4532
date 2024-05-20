@@ -5,4 +5,6 @@ def hello_world():
 	return "Hello World!"
 
 def hello_world_n(N):
-	return "Hello World!" * N
+	return ("Hello World!" + " ") * N
+
+print(hello_world_n(3))
